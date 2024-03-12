@@ -137,8 +137,8 @@ diagnostic_mode = 0 # turns on checkpoints
 vectordb = pinecone_data_load()
 prompta = "What is Fair Housing?"
 promptb = "What are protected classes?"
-promptc = "I feel my landlord is discriminating against me, what do I do?"
-promptd = "I feel my realtor is discriminating against me, what do I do?"
+promptc = "How do I know if I am being discriminated against?"
+promptd = "How is fair housing different for leasing and buying?"
 prompte = "Who can help me with fair housing concerns?"
 promptf = "My landlord kept my security deposit, what do I do?"
 # Prompt ID to be inserted before the users query
