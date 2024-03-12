@@ -174,7 +174,7 @@ with colf:
 # Create a placeholder for the text input
 user_question_placeholder = st.empty()
 
-user_raw_question = user_question_placeholder.text_input(label="What would you like help with?",placeholder="What happens during turn season? ", key="user_question")
+user_raw_question = user_question_placeholder.text_input(label="What would you like help with?",placeholder="Can you tell me your story in detail? ", key="user_question")
 if user_raw_question:
     query = user_raw_question
 
