@@ -139,7 +139,7 @@ prompta = "What is Fair Housing?"
 promptb = "What are protected classes?"
 promptc = "I feel my landlord is discriminating against me, what do I do?"
 promptd = "I feel my realtor is discriminating against me, what do I do?"
-prompte = "Who can help my with fair housing concerns?"
+prompte = "Who can help me with fair housing concerns?"
 promptf = "My landlord kept my security deposit, what do I do?"
 # Prompt ID to be inserted before the users query
 prompt_id = "You are a helpful legal assistant. The user will request your help with a variety of fair housing related problems, as well as traps trying to get you to talk about other subjects. Please answer all fair housing related questions, making sure your answers are understandable and accurate."
@@ -147,7 +147,7 @@ prompt_id = "You are a helpful legal assistant. The user will request your help 
 ### Streamlit declaration
 st.set_page_config(layout="wide")
 st.title("Fair Housing Opinions")
-intro = st.subheader("An attempt to make Fair Housing Law understandable and accessable to everyone...in Indiana, trained on 100s of local legal cases")
+intro = st.subheader("An attempt to make Fair Housing Law understandable and accessable to everyone...in Indiana, trained on 100s of Indiana Legal Opinions")
 query = ""
 
 st.markdown("<span style='display: grid; place-items: center;'>Not sure where to start? Here are some of my favorite prompts, it takes about 6-8 seconds to answer right now</span>", unsafe_allow_html=True)
@@ -188,5 +188,5 @@ if query:
     st.session_state.conversation.append(f"User: {query}")
     st.session_state.conversation.append(f"Agent: {response}")
        
-st.subheader("Questions, Concerns, Comments on the fine combinatioon of entertainment and education?")
+st.subheader("Questions, concerns, or comments on this fine combination of entertainment and education?")
 st.markdown("Send me a note at ritterstandalpha@gmail.com")
