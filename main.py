@@ -147,7 +147,7 @@ prompt_id = "You are a helpful legal assistant. The user will request your help 
 ### Streamlit declaration
 st.set_page_config(layout="wide")
 st.title("Fair Housing Opinions")
-intro = st.subheader("An attempt to make Fair Housing Law understandable and accessable to everyone...in Indiana, trained on 100s of Indiana Legal Opinions")
+intro = st.subheader("An attempt to make Fair Housing Law understandable and accessable to everyone...in Indiana, trained on 100s of Indiana legal cases")
 query = ""
 
 st.markdown("<span style='display: grid; place-items: center;'>Not sure where to start? Here are some of my favorite prompts, it takes about 6-8 seconds to answer right now</span>", unsafe_allow_html=True)
