@@ -190,3 +190,4 @@ if query:
        
 st.subheader("Questions, concerns, or comments on this fine combination of entertainment and education?")
 st.markdown("Send me a note at ritterstandalpha@gmail.com")
+st.markdown("This is not a source of legal advise, this is a chatbot trying its best to help. Lawyers are expensive and intimidating, so it might help to talk it through without judgement or pressure")
